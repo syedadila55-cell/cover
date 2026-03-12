@@ -1,5 +1,5 @@
 # Ex.05 Book Cover Page Design
-## Date:
+## Date:12.03.2026
 
 ## AIM:
 To design a book back cover page using HTML and CSS.
@@ -31,10 +31,120 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM:
+~~~
+<!DOCTYPE html>
+<html>
+<head>
+<title>Book Cover</title>
+<link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+
+<div class="book">
+
+<h2>About the Book</h2>
+<hr>
+
+<p>
+This book <span class="highlight">"Fundamentals of Web Application Development"</span>
+provides an engaging journey through the art and science of web design.
+It explores how creativity meets technology to craft visually appealing
+and user-friendly websites.
+</p>
+
+<div class="quote">
+“Design is not just what it looks like and feels like — design is how it works on the web.”
+</div>
+
+<div class="author">
+<img src="author.jpg.jpeg" alt="syed adil">
+<div>
+<h3>S.SYED ADIL</h3>
+<p>S.SYED ADIL is a renowned educator and writer with several years of experience inspiring students and professionals in web development.</p>
+</div>
+</div>
+
+<div class="footer">
+<span>SEC Publishers<br>Printed in India</span>
+<span class="price">Price: ₹279</span>
+</div>
+
+</div>
+
+</body>
+</html>
+~~~
+~~~
+body{
+font-family: Arial;
+background: url("https://images.unsplash.com/photo-1501785888041-af3ef285b470");
+background-size: cover;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.book{
+width:450px;
+padding:25px;
+background:rgba(255,255,255,0.8);
+border-radius:10px;
+border:2px solid lightblue;
+}
+
+h2{
+color:blue;
+}
+
+.highlight{
+background:yellow;
+padding:2px;
+}
+
+.quote{
+background:white;
+padding:10px;
+margin:20px 0;
+border-left:4px solid blue;
+font-style:italic;
+text-align:center;
+}
+
+.author{
+display:flex;
+align-items:center;
+background:white;
+padding:10px;
+border-radius:8px;
+}
+
+.author img{
+width:70px;
+height:70px;
+margin-right:10px;
+border-radius:5px;
+}
+
+.footer{
+margin-top:30px;
+background:#174a87;
+color:white;
+padding:10px;
+display:flex;
+justify-content:space-between;
+border-radius:5px;
+}
+
+.price{
+color:yellow;
+font-weight:bold;
+}
+~~~
 
 ## OUTPUT:
-
+![alt text](<Screenshot 2026-03-12 114132.png>)
 
 ## RESULT:
 The program for designing book back cover page using HTML and CSS is completed successfully.
