@@ -150,9 +150,7 @@ font-weight:bold;
 
 
 ## OUTPUT:
-
-
-![alt text](<Screenshot 2026-03-12 114132-1.png>)
+![alt text](<Screenshot 2026-03-12 114132.png>)
 
 ## RESULT:
 The program for designing book back cover page using HTML and CSS is completed successfully.
