@@ -32,8 +32,6 @@ Publish the website in the LocalHost.
 
 ## PROGRAM:
 ~~~
-HTML CODE
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -78,7 +76,6 @@ and user-friendly websites.
 </html>
 ~~~
 ~~~
-CSS code
 
 body{
 font-family: Arial;
@@ -149,6 +146,7 @@ font-weight:bold;
 
 
 ## OUTPUT:
+
 ![alt text](<Screenshot 2026-03-12 114132.png>)
 
 
