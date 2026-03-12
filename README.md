@@ -32,6 +32,9 @@ Publish the website in the LocalHost.
 
 ## PROGRAM:
 ~~~
+
+HTML
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -75,6 +78,7 @@ and user-friendly websites.
 </body>
 </html>
 ~~~
+CSS
 ~~~
 
 body{
