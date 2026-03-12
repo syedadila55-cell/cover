@@ -32,6 +32,8 @@ Publish the website in the LocalHost.
 
 ## PROGRAM:
 ~~~
+HTML CODE
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -76,6 +78,8 @@ and user-friendly websites.
 </html>
 ~~~
 ~~~
+CSS code
+
 body{
 font-family: Arial;
 background: url("https://images.unsplash.com/photo-1501785888041-af3ef285b470");
@@ -143,8 +147,10 @@ font-weight:bold;
 }
 ~~~
 
+
 ## OUTPUT:
 ![alt text](<Screenshot 2026-03-12 114132.png>)
+
 
 ## RESULT:
 The program for designing book back cover page using HTML and CSS is completed successfully.
